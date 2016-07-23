@@ -48,8 +48,8 @@ if (isset($_POST['register'])) {
 
     //connect to dynamodb
     $client = DynamoDbClient::factory(array(
-        'credentials' => array('aws_access_key_id' => 'AKIAJ6X2GNOE7PNOGYFA',
-            'aws_secret_access_key' => '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'),
+        'credentials' => array('aws_access_key_id' => 'xxxxxxxxxxxxxxxxxx',
+            'aws_secret_access_key' => 'xxxxxxxxxxxxxxxx'),
         'region' => 'us-west-2'  // replace with your desired region
 
     ));
