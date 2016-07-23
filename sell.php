@@ -49,8 +49,8 @@ if (isset($_POST['post'])) {
 
     //Connect to s3
     $s3client = S3Client::factory(array(
-        'credentials' => array('aws_access_key_id' => 'AKIAJ6X2GNOE7PNOGYFA',
-            'aws_secret_access_key' => '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'),
+        'credentials' => array('aws_access_key_id' => 'xxxxxxxxxxxxxx',
+            'aws_secret_access_key' => 'xxxxxxxxxxxxxx'),
         'region' => 'us-east-1'  // replace with your desired region
     ));
 
