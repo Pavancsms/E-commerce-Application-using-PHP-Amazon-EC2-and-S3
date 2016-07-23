@@ -27,8 +27,8 @@ error_reporting(E_ALL);
 ini_set('display_errors', 'Off');
 
 $client = DynamoDbClient::factory(array(
-    'credentials' => array('aws_access_key_id' => 'AKIAJ6X2GNOE7PNOGYFA',
-        'aws_secret_access_key' => '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'),
+    'credentials' => array('aws_access_key_id' => 'xxxxxxxxxxxxx',
+        'aws_secret_access_key' => 'xxxxxxxxxxxxxxxxx'),
     'region' => 'us-west-2'  // replace with your desired region
 
 ));
