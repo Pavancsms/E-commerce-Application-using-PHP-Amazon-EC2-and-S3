@@ -1,0 +1,57 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    background: #333;
+
+}
+
+body {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.dot {
+    stroke: #000;
+}
+
+#page-wrapper {
+    width: 200px;
+    background: #FFF;
+    padding: 1em;
+    margin: 1em auto;
+    min-height: 100px;
+    border-top: 5px solid #69c773;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/*img {
+  max-width: 100%;
+}*/
+
+/*#fileDisplayArea {
+  margin-top: 2em;
+  width: 100%;
+  overflow-x: auto;
+}*/
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+    color: #ffffff;
+}
+
+.dot {
+    stroke: #000;
+}
+
