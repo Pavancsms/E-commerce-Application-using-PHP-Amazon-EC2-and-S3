@@ -1,1 +1,0 @@
-# E-commerce-Application-using-PHP-Amazon-EC2-and-S3
